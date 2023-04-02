@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    padding:0 60px;
+    background-color:#18191c;
+    color:whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    overflow-x:hidden;
+}
+
+header{
+    background-color:#18191c; ;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:50px 0 0 0;
+    color:whitesmoke;
+    position: sticky;
+    top:0;
+}
+header h1{
+    font-family:'Unbounded';
+    padding:20px;
+    
+}
+nav{
+    display:flex;
+    gap:40px;
+}
+nav a{
+    padding:10px;
+    transition: all 0.4s;
+    cursor:pointer;
+
+}
+nav a:hover{
+    color:#e83cee;
+    text-shadow:5px 5px 30px #e83cee;
+    transition: all 0.4s;
+    cursor:pointer;
+}
+header button{
+    cursor:pointer;
+    padding:16px 32px;
+    color:whitesmoke;
+    border:none;
+    border-radius:66px;
+    background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+}
+header button:hover{
+    background-image: linear-gradient(240deg, #21d4fd 0%, #b721ff 100%);
+}
+.mob_btn{
+    display:none;
+    cursor:pointer;
+    padding:16px 16px;
+    color:whitesmoke;
+    border:none;
+    border-radius:66px;
+    background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+
+    }
+.hero{
+    display: flex;
+    gap:50px;
+    align-items:center;
+    justify-content:space-between;
+    margin:80px 20px;
+}
+.hero .left{
+    width:700px;
+
+}
+.hero .left h1{
+    font-family:'Inter';
+    font-size:90px;
+    font-weight:600px;
+    line-height: 90px;
+}
+.hero span{
+    color:#39B5E0;
+}
+.hero .right{
+    width:800px;
+}
+.hero .right img{
+    width:100%;
+}
+.left-info{
+    display:flex;
+    margin:20px 0;
+    gap: 30px;
+}
+.left-info button{
+    border:none;
+    cursor:pointer;
+    transition:all 0.4s;
+    color:whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:30px 20px;
+    border-radius:60%;
+    background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+}
+.left-info button:hover{
+    
+    transition:0.4s;
+    background-image: linear-gradient(80deg,#ff3cac 0%, #21d4fd 50%, #b721ff 100%);
+}
+.brands{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin:20px;
+    gap:30px;
+    transition:all 0.4s;
+
+   
+}
+.brands img:hover{
+    transition:all 0.4s;
+    width:200px;
+    cursor:pointer;
+    filter:drop-shadow(20px 20px 10px #ef0eca);
+}
+.drop{
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+.drop h1{
+    margin:5px 10px;
+    padding:10px 0;
+    font-family:'Inter';
+    font-size: 45px;
+    font-weight:300px;
+
+}
+.btn-drop{
+    display:flex;
+    flex-wrap:wrap;
+}
+.btn-drop button{
+    justify-content:space-between;
+    margin:5px 20px;
+    padding:10px 20px;
+    border:none;
+    border-radius:50px;
+    background: rgba(128, 128, 128, 0.653);
+    justify-items:start;
+    color:whitesmoke;
+    cursor:pointer;
+
+
+}
+.btn-drop button:hover{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    font-size:16px;
+    transition:all 0.4s;
+    justify-content:space-between;
+
+}
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    gap:40px;
+}
+.cards .card{
+    width:230px;
+    min-height:300px
+}
+.card{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    background: whitesmoke;
+    color:black;
+    padding:7px;
+    border-radius: 6px;
+    
+}
+.card-img{
+    width:100%
+}
+.price img{
+    width:20px;
+}
+.price{
+    display:flex;
+    gap:5px;
+    align-items:center;
+}
+.price p{
+    color:#b721ff;
+    font-weight:bold;
+}
+.card-info{
+    display:flex;
+    justify-content:space-between;
+}
+.card-info small{
+    color:gray;
+}
+
+.card-footer{
+    display:flex;
+    justify-content:space-between;
+    border-top: 1px solid rgb(142, 139, 139);
+    padding:10px 0;
+}
+.card-footer p{
+    color:#4158D0;
+    background: rgba(201, 197, 197, 0.43);
+    border-radius: 10px;
+    padding:0 3px;
+}
+.card-footer button{
+    color:#4158D0;
+    font-weight:bold;
+    border:none;
+    border-radius:10px;
+    font-family:'Poppins';
+    padding:2px;
+}
+.card-footer button:hover{
+    background: rgba(170, 164, 164, 0.492);
+
+}
+.ad{
+    color:white;
+    background-color:#39B5E0;
+    margin:100px -140px;
+    text-align:center;
+    font-size:100px;
+    font-weight:600;
+    transform:rotate(-6deg);
+    letter-spacing:10px;
+    white-space:nowrap;
+    text-shadow: 2px 3px 200px white;
+    cursor:pointer;
+
+}
+
+.foot_NFT h1{
+    margin:5px 10px;
+    padding:10px;
+    font-family:'Inter';
+    font-size: 45px;
+    font-weight:300px;
+}
+.boxes{
+    padding:30px;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:30px;
+
+}
+.boxes div{
+    background-color:#3d0498;
+    padding:20px;
+    gap:20px;
+    border-radius: 20px;
+    justify-content:space-between;
+    max-width:300px;
+    max-height: 500px;
+}
+.boxes h2{
+    padding:10px 0;
+}
+/* Mobil Uyumlu(responsive) Yapmak*/
+@media (max-width:1300px){
+    .hero{
+        display:flex;
+        flex-direction:column;
+    }
+    .hero .left{
+        padding:60px;
+    }
+
+    .hero .right{
+        order:-1;
+    }
+    .hero .right img{
+        padding:60px;
+    }
+    .drop{
+        justify-content:center;
+    }
+    header nav{
+        display:none;
+    }
+    .mob_btn{
+        display:block;
+    }
+    .contact{
+        display:none;
+    }
+    .ad{
+        letter-spacing:5px;
+        font-size:60px;
+    }
+    .boxes{
+        padding:30px;
+        display:flex;
+        flex-wrap: wrap;
+        gap:30px;
+        justify-content:center;
+    
+    }
+    .cards{
+        justify-content:center;
+    }
+    .foot_NFT h1{
+        justify-content:center;
+    }
+}  
+
+
